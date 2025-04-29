@@ -9,11 +9,18 @@
 
   <div class="login-container">
     <h1 class="login-title">Login</h1>
-    <input type="text" id="username" placeholder="Username">
-    <input type="password" id="password" placeholder="Password">
-    <button class="login-btn">Login</button>
+
+
+    <form id="loginForm">
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button type="submit" class="login-btn">Login</button>
+      </form>
+      
   </div>
 
   <script src="confirmKey.js"></script>
+  <script src="login.js"></script> <!-- Nuevo -->
+
 </body>
 </html>
